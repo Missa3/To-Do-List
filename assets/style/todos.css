@@ -3,3 +3,8 @@
   border: 2px solid gray;
   margin: 0 auto;
 }
+
+.completed{
+  color:rgb(190, 192, 196);
+  text-decoration: line-through;
+}
