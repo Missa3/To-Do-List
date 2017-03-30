@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="assets/style/todos.css">
-    <script type="text/javascript" src="assets/js/lib/jquery-3.2.0.slim.min.js"></script>
-
+    <link rel="stylesheet" href="assets/style/todos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,19 +13,19 @@
 </head>
 
 <body>
-<div id="container">
-  <h1>To-Do List</h1>
-  <input type="text">
-  <ul>
-    <li><span>X </span>Go to store</li>
-    <li><span>X </span>buy stuff</li>
-    <li><span>X </span>home</li>
-    <li><span>X </span>work</li>
-    <li><span>X </span>clean</li>
-  </ul>
-</div>
-<script type="text/javascript" src="assets/js/todos.js">
-</script>
+    <div id="container">
+        <h1>To-Do List<i class="fa fa-plus-square-o" aria-hidden="true"></i></h1>
+        <input type="text" placeholder="Add New Item">
+        <ul>
+            <li><span><i class="fa fa-trash" aria-hidden="true"></i> </span>Go to store</li>
+            <li><span><i class="fa fa-trash" aria-hidden="true"></i> </span>buy stuff</li>
+            <li><span><i class="fa fa-trash" aria-hidden="true"></i> </span>home</li>
+            <li><span><i class="fa fa-trash" aria-hidden="true"></i> </span>work</li>
+            <li><span><i class="fa fa-trash" aria-hidden="true"></i> </span>clean</li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="assets/js/todos.js">
+    </script>
 </body>
 
 </html>
